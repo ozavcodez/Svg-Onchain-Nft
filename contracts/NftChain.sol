@@ -14,7 +14,10 @@ contract OnChainNFT is ERC721URIStorage, Ownable(msg.sender) {
 
     constructor() ERC721("OnChainNFT", "ONC") {}
 
-    /* Converts an SVG to Base64 string */
+    /* akande-ozavize@akande-ozavize-HP-EliteBook-840-G3:~/Documents/chainnft$ git commit -m "first-commit"
+[main (root-commit) 951fa82] first-commit
+ 10 files changed, 7475 insertions(+)
+ cConverts an SVG to Base64 string */
     function svgToImageURI(string memory svg)
         public
         pure
